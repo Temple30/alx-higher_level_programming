@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 
 def square_matrix_simple(matrix=[]):
-    new_matrix = [row[:] for row in matrix]
-    for idx, row in enumerate(new_matrix):
-        for idx2, col in enumerate(new_matrix):
-            new_matrix[idx][idx2] = row[idx2] ** 2
-        return new_matrix
+
+    result_matrix = [[0] * len(row) for row in matrix]
+
+
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i])):
+            result_matrix[i][j] = matrix[i][j] ** 2
+
+    return result_matrix
