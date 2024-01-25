@@ -1,5 +1,5 @@
-#ifndef _LISTS_H
-#define _LIST_H
+#ifndef _LISTS_
+#define _LISTS_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,7 +11,7 @@
  * @next: points to the next node
  *
  * Description: doubly linked list node structure
- *
+ * for Holberton project
  */
 typedef struct dlistint_s
 {
@@ -32,3 +32,4 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 
 
 #endif
+
