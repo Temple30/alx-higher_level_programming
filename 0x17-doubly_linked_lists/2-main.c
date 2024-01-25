@@ -4,10 +4,10 @@
 #include "lists.h"
 
 /**
- *  * main - check the code
- *   *
- *    * Return: Always EXIT_SUCCESS.
- *     */
+ * main - check the code
+ *
+ * Return: Always EXIT_SUCCESS.
+ */
 int main(void)
 {
 	dlistint_t *head;
