@@ -12,7 +12,9 @@ def safe_print_list_integers(my_list=[], x=0):
     finally:
         return count_integers
 
-# Example usage:
+
 my_list = [1, "two", 3, "four", 5]
+
+
 result = safe_print_list_integers(my_list, 3)
 print("Number of integers printed:", result)
