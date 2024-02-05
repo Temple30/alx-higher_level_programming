@@ -34,10 +34,3 @@ def list_division(my_list_1, my_list_2, list_length):
             pass
 
     return result
-
-# Example usage:
-my_list_1 = [10, 20, 30]
-my_list_2 = [2, 5, 0]
-list_length = 5
-result_list = list_division(my_list_1, my_list_2, list_length)
-print(result_list)
