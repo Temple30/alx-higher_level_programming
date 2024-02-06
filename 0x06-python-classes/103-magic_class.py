@@ -3,6 +3,7 @@
 
 import math
 
+
 class MagicClass:
     """Represents a circle with magic calculations."""
 
@@ -10,7 +11,8 @@ class MagicClass:
         """Initialize the MagicClass with a radius.
 
         Args:
-            radius (int or float, optional): The radius of the circle. Defaults to 0.
+            radius (int or float, optional):
+            The radius of the circle. Defaults to 0.
 
         Raises:
             TypeError: If radius is not a number.
